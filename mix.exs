@@ -47,7 +47,7 @@ defmodule Wallaby.Mixfile do
       {:web_driver_client, "~> 0.2.0"},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
-      {:bypass, "~> 1.0.0", only: :test},
+      {:bypass, "~> 2.1.0", only: :test},
       {:ex_doc, "~> 0.34", only: :dev},
       {:ecto_sql, ">= 3.0.0", optional: true},
       {:phoenix_ecto, ">= 3.0.0", optional: true}
